@@ -77,7 +77,7 @@ continuar.addEventListener("click", () => {
                             if (primerItem) {
                                 setTimeout(() => {
                                     swal.fire(primerItem.pista);
-                                }, 2000);
+                                }, 60000);
                             } else {
                                 console.log('No se encontró ningún item con ID en el archivo JSON.');
                             }
@@ -118,7 +118,7 @@ continuar.addEventListener("click", () => {
                                             const segundoItem = data[1]; 
                                             setTimeout(() => {
                                                 swal.fire(segundoItem.pista); 
-                                            }, 40000);
+                                            }, 60000);
                                         } else {
                                             console.log('no deberia haber ningun error si sale esto estamos en problemas houston');
                                         }
@@ -227,7 +227,7 @@ continuar.addEventListener("click", () => {
                                         div.innerHTML = `<div class="pedirNombre container-fluid text-center">
         <h1>Las placas</h1>
         <Img src="./Img/337toh.jpg" class="rounded" alt="">
-        <h2>${nombre} decide avanzar sin agarrar el anillo ya que no es su objetivo. Misteriosamente, después de haber abierto la caja, una puerta se refleja en el camino. Arriba de la puerta había una cabeza con dos cuernos mirando. ${nombre} no se sentía muy cómodo. Cuando se acerca e intenta abrir la dicha puerta, no se abre y la cabeza se gira mostrando dos placas. ¿Cuál debería presionar?</h2>
+        <h2>${nombre} decide avanzar sin agarrar el anillo ya que no es su objetivo. Misteriosamente, después de haber abierto la caja, una puerta se refleja en el camino. Arriba de la puerta había una cabeza con dos cuernos mirando. ${nombre} no se sentía muy cómodo. Cuando se acerca e intenta abrir la dicha puerta, no se abre y la cabeza se gira mostrando cuatro placas. ¿Cuál debería presionar?</h2>
         <button id="final" class="button" style="vertical-align:middle"><span>Primera</span></button>
         <button id="muerteTres" class="button" style="vertical-align:middle"><span>Segunda</span></button>
         <button id="muerteCuatro" class="button" style="vertical-align:middle"><span>Tercera</span></button>
